@@ -20,3 +20,10 @@
 * some time it is tough to find actual validation error in yaml while starting swagger server, and it throws gernal error "Swagger document(s) failed validation so the server cannot start" which is useless, but you can validate your yaml file with another command:
     * swagger validate api/swagger/swagger.yaml
 
+## More on Swagger
+* Swagger is having primarily three tools
+    * Swagger Editor: to define and specify your rest apis; we have used it in this demo
+    * Swagger-UI: for dev team or for consumers to visualize documenation and to test/interact API's behavior; we have used it in another my [git repo](https://github.com/vishalbhardwaj26/rest-express-nodejs)
+    * Swagger codegen: gernate stubs for server and client sdks for consumers; we have not used this tool yet.
+    * SwaggerHub: Cloud to design and build APIs
+
